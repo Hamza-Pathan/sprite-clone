@@ -1,0 +1,564 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+}
+.navbar{
+
+    width: 100%;
+    
+    /* position: fixed !important; */
+    background-color: #009b4e;
+}
+.navbar-brand img{
+    height: 50%;
+    width: 70%;
+    padding: 10px 20px;
+
+}
+ .container .navbar .nav-icons {
+    float: right !important;
+}
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link{
+    color: white !important;
+    font-weight: bold;
+    font-size: 18   px;
+    font-family: sans-serif;
+}
+
+
+.navbar .icons i{
+    margin-right: 20px;
+    color: white;
+    font-size: 20px;
+}
+.main-banner{
+    margin-top: 50px;
+}
+.main-banner .banner {
+    background-image: url("../images/sprite.background.jpeg");
+    height: 572px !important;
+    width: 100% !important;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.main-banner .banner h1{
+    font-size: 56px;
+    font-weight: 900;
+    color: white;
+
+}
+.main-banner .banner p{
+    color: white;
+    font-size: 20px;
+    width: 25%;
+}
+.main-banner .banner  button{
+    border-radius: none;
+    width: 15%;
+
+}
+
+.icons:hover{
+    color: black;
+    transition: 0.5s;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color: black !important;
+    transition: 0.5s;
+}
+.main-banner .banner  button:hover{
+    background-color: black;
+    list-style-type: none;
+    transition: 0.5s;
+}
+.main-banner .banner{
+    font-family: sans-serif;
+    padding: 175px 78px;
+}
+.drop .container{
+    /* margin-left: 20px; */
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.drop .container h2{
+    margin-left: 50px;
+    /* font-size: 20px; */
+    font-weight: 800;
+    
+}
+.drop .container p{
+    font-size: 15px;
+    width: 90%;
+    margin-left: 50px;
+}
+.drop {
+    width: 50%;
+    margin: auto;
+}
+.drop .container iframe{
+    align-items: center !important;
+    margin: auto;
+    margin: auto;
+    width: 70%;
+    height: 90%;
+}
+.main-images .images .span img{
+    height:100%;
+    width: 100%;
+}
+ .main-images .image-2 img{
+    width: 100%;
+    height: 100%;
+}
+.images .main-images{
+    display: flex;
+    justify-content: center;
+}
+.images .img img{
+    height: auto;
+    width: 100%;
+}
+.images .img-1 img{
+    width: 100%;
+    height:100%;
+}
+.images .text{
+    color: black;
+}
+.images .text{
+    position:relative;
+   left: 290px !important;
+   bottom:400px !important;
+   
+}
+.images .text h2 {
+    color: white;
+    width: 56%;
+    font-size: 50px;
+    font-weight: 900;
+
+}
+.images .text h3{
+    letter-spacing: 2px;
+    color: yellow;
+}
+.images .text span{
+    color: white !important;
+}
+.images .text button{
+    margin-top: 20px;
+    width: 20%;
+    height: 30px;
+    color: white;
+    background-color: black;
+}
+.images{
+    margin-top: 20px !important;
+}
+
+.main-drop .youtube-video{
+    /* background-color: red; */
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+}
+.main-drop .youtube-video iframe{
+    height: 400px;
+    width: 100%;
+}
+.main-footer .footer{
+    background-color: #009b4e;
+    /* height: 50vh; */
+    padding: 50px 0;
+}
+.main-footer .footer .container{
+    margin-top: 20px !important;
+}
+.main-footer .footer .container .text a{
+    color: white;
+    margin-top: 0px !important;
+    font-weight: 800;
+}
+.footer .container .footer-text .link {
+    text-align: center;
+}
+.footer .container .text a{
+    display: flex;
+    justify-content: center;
+    /* text-align: center !important; */
+}
+
+.main-footer .footer .container .text h3{
+    font-weight: 800;
+    color: white;
+   
+}
+.main-footer .footer .footer-text h3 {
+    color: white;
+    font-weight: 800;
+}
+.main-footer .footer .footer-text .link i{
+    font-size: 20px;
+    color: white;
+    margin-right: 10px;
+}
+.main-footer .footer .container .last-sec .sec p{
+    text-align: center;
+    margin-top: 70px;
+    font-weight: 800;
+    color: white;
+}
+.main-footer .footer .container .text a:hover{
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+
+
+.last-links{
+    display: inline-block;
+    justify-content: center;
+}
+.last-links .link-data{
+    margin-right: 20px;
+    border-right: 1px solid white;
+}
+.container .last-sec p{
+    color: white;
+    font-weight: 900;
+}
+.last-links .link-data h2{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+.card-2 .container .image-3 img{
+    width: 95%;
+    height: 100%;
+}
+.card-2 .container .image-6 img{
+    width: 95%;
+    height: 50%;
+}
+.card-2 .container {
+    color: white;
+    text-align: center;
+    /* margin-top: 20px; */
+}
+.card-2 .container  h1{
+    font-size: 60px;
+    font-weight: 900;
+}
+.card-2 .container p{
+    color: white;
+}
+.card-2 .container a{
+    color: #009b4e;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.main-card-2 .card-2{
+    /* height: 100vh; */
+    background-color: black;
+}
+.main-product .product  .product-img img{
+    height: 500px !important;
+
+}
+.main-product .product {
+    /* margin-top: 100px !important; */
+    text-align: center;
+}
+.main-product .product button{
+    width: 150px;
+}
+.main-product .product .btn button{
+    width: 100%;
+}
+.main-product .product .product-img img{
+    padding-top: 50px;
+}
+.main-product .product .container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.main-product .product h2{
+    color: white;
+}
+.main-product .product button{
+    margin-top: 20px;
+    background-color: black;
+    color: white !important;
+    border: 1px solid white;
+    font-weight: bold;
+    
+    
+    color: black;
+}
+.main-product .product p{
+    color: white;
+}
+.main-product .product .btn button{
+    width: 100px;
+    font-weight: bold;
+    color: white;
+    background-color:black ;
+    border: 1px solid white;
+    font-size: 15px;
+    /* padding-left: 50px; */
+    /* margin: auto; */
+}
+.main-product{
+    background-color: black;
+}
+.main-product .product .container p{
+    padding-left: 50px;
+}
+/* product section responsive by media quiry */
+@media screen and (min-width:300px) and (max-width:390px){
+    .main-banner .banner h1 {
+        font-size: 20px;
+        font-weight: 900;
+        color: black;
+    }
+    .main-banner .banner p {
+        color: black;
+        font-size: 20px;
+        width: 100%;
+    }
+    .main-drop .youtube-video iframe {
+        height: 231px;
+        width: 100%;
+    }
+    .images .img-1 img {
+        width: 100%;
+        height: 100%;
+    }
+    .main-banner .banner {
+        font-family: sans-serif;
+        padding: 30px;
+        margin-top: 100px;
+    }
+    .main-banner .banner button {
+        border-radius: none;
+        width: 100px;
+}
+    .main-banner .banner {
+        background-image: none !important;
+        height: auto !important; 
+        color: black !important;
+        
+    }
+    .drop {
+        width: 100%;
+        margin: auto;
+    }
+    .main-product .product h2 {
+        color: white;
+        font-size: 22px;
+    }
+    .main-product .product button {
+        margin-top: 20px;
+        background-color: black;
+        color: white !important;
+        border: 1px solid white;
+        font-weight: bold;
+        color: black;
+        width: 113px;
+    }
+    .main-product .product .product-img img {
+        height: 411px !important;
+    }
+    .main-product .product .btn button {
+        width: 84px;
+        font-weight: bold;
+        color: white;
+        background-color: black;
+        border: 1px solid white;
+        font-size: 10px;
+        /* padding-left: 50px; */
+        /* margin: auto; */
+    }
+    .main-footer .footer .footer-text h3 {
+        color: white;
+        font-weight: 800;
+        font-size: 18px;
+        text-align: center;
+    }
+    .main-footer .footer .container .text h3 {
+        font-weight: 800;
+        color: white;
+        text-align: center;
+        font-size: 19px;
+    }
+    .footer .container .text a {
+        display: flex;
+        margin-top: 0px !important;
+        font-size: 15px;
+        justify-content: center;
+      
+    }
+    .last-links .link-data {
+      
+        border-bottom: 1px solid white;
+        width: 95%;
+    }
+    .navbar-brand img {
+        text-align: center;
+        height: 50%;
+        width: 70%;
+        padding: 10px 20px;
+        
+    }
+    .navbar .icons i {
+        margin-right: 20px;
+        color: white;
+        display: contents;
+        font-size: 20px;
+    }
+    .card-2 .container h1 {
+        margin-top: 110px;
+        font-size: 31px;
+        font-weight: 900;
+    }
+
+}
+/* product section responsive by media quiry over */
+
+
+/* product section responsive by media quiry over strt btwn 391px to 500px */
+@media screen and (min-width:391px) and (max-width:490px){
+    
+    .main-footer .footer .container .text h3 {
+        font-weight: 800;
+        color: white;
+        text-align: center;
+        font-size: 19px;
+    }
+    .main-banner .banner h1 {
+        font-size: 20px;
+        font-weight: 900;
+        color: black;
+    }
+    .main-banner .banner p {
+        color: black;
+        font-size: 20px;
+        width: 100%;
+    }
+    .main-drop .youtube-video iframe {
+        height: 231px;
+        width: 100%;
+    }
+    .images .img-1 img {
+        width: 100%;
+        height: 100%;
+    }
+    .main-banner .banner {
+        font-family: sans-serif;
+        padding: 30px;
+        margin-top: 100px;
+    }
+    .main-banner .banner button {
+        border-radius: none;
+        width: 100px;
+}
+    .main-banner .banner {
+        background-image: none !important;
+        height: auto !important; 
+        color: black !important;
+        
+    }
+    .drop {
+        width: 100%;
+        margin: auto;
+    }
+    .main-product .product h2 {
+        color: white;
+        font-size: 22px;
+    }
+    .main-product .product button {
+        margin-top: 20px;
+        background-color: black;
+        color: white !important;
+        border: 1px solid white;
+        font-weight: bold;
+        color: black;
+        width: 113px;
+    }
+    .main-product .product .product-img img {
+        height: 411px !important;
+    }
+    .main-product .product .btn button {
+        width: 84px;
+        font-weight: bold;
+        color: white;
+        background-color: black;
+        border: 1px solid white;
+        font-size: 10px;
+        /* padding-left: 50px; */
+        /* margin: auto; */
+    }
+    .main-footer .footer .footer-text h3 {
+        color: white;
+        font-weight: 800;
+        font-size: 18px;
+        text-align: center;
+    }
+    .main-footer .footer .container .text h3 {
+        font-weight: 800;
+        color: white;
+        text-align: center;
+        font-size: 19px;
+    }
+    .footer .container .text a {
+        display: flex;
+        margin-top: 0px !important;
+        font-size: 15px;
+        justify-content: center;
+      
+    }
+    .last-links .link-data {
+      
+        border-bottom: 1px solid white;
+        width: 95%;
+    }
+    .navbar-brand img {
+        text-align: center;
+        height: 50%;
+        width: 70%;
+        padding: 10px 20px;
+        
+    }
+    .navbar .icons i {
+        margin-right: 20px;
+        color: white;
+        display: contents;
+        font-size: 20px;
+    }
+    .card-2 .container h1 {
+        margin-top: 110px;
+        font-size: 53px;
+        font-weight: 900;
+    }
+        
+    }
+
+
+
+
+
+
+
+
+
+
